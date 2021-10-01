@@ -1,0 +1,72 @@
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,900,700italic,700,600italic,600,400italic);
+
+body {
+  font-family: 'Titillium Web', cursive;
+  margin: 0 auto;
+  text-align: center;
+
+  font-weight: 100;
+}
+
+.about{
+     background-image: url(/image/depositphotos_35476563-stock-photo-codecss-script-in-text-editor.jpg);
+     background-position: center center;
+    background-size: cover; 
+    background-attachment: fixed;
+
+}
+
+
+#timer {
+    display: none;
+}
+
+/* div {
+    
+
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+} */
+
+span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+#days {
+
+    padding: 30px;
+text-align: center;
+color: #f07c22;
+background: #222;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#hours {
+    text-align: center;
+      color: #db4844;
+      background: #222;
+      font-size: 50px;
+   padding: 30px;
+}
+#minutes {
+ 
+    padding: 30px;
+    text-align: center;
+    color: #abcd58;
+    background: #222;
+      font-size: 50px;
+}
+#seconds {
+    
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+    color: #f6da74;
+    background: #222;
+}
